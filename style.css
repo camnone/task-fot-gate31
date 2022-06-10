@@ -6,8 +6,8 @@
 }
 
 .container{
-    padding-top: 150px;
-    max-width: 1260px;
+    padding-top: 200px;
+    max-width: 1350px;
     margin: 0 auto;
     min-height: 100vh;
 }
@@ -18,7 +18,7 @@
     grid-template-columns: repeat(4,minmax(auto,300px));
     grid-template-rows: auto;
     grid-auto-columns:300px;
-    gap: 20px;
+    gap: 50px;
 }
 
 .papper{
@@ -33,7 +33,7 @@
 }
 
 .bg{
-    background-color: rgb(7, 4, 17);
+    background-color: rgba(135, 220, 149, 0.587);
 }
 .white-text{
 	color: #fff;

@@ -53,7 +53,7 @@ function card() {
                 item.append(checkBox);
             });
 
-            toggle.forEach((item, i) => {
+            toggle.forEach((item) => {
                 item.addEventListener('change', (e) => {
                     if (e.target) {
                         if (e.target.checked) {
